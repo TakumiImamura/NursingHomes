@@ -1,0 +1,79 @@
+@charset "utf-8";
+body{
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  color: #333;
+}
+a { color: darkgray; }
+a:hover{
+    color: chocolate;
+    font-size: bold;
+}
+/*カード作成*/
+.card{
+    width: 250px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
+.card-img{
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 10px;
+}
+.card-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+.card-text{
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.card-link{
+    text-align: center;
+    border-radius: 1px solid #eee;
+    padding: 10px;
+}
+.card-link a{
+    text-decoration: none;
+    color: #0bd;
+    margin: 0 10px;
+}
+.card-link a:hover{
+color: #0090aa;
+}
+/*カード横並び*/
+#introduce{
+    padding-bottom: 20px;
+    background-color: pink;
+    text-align: center;
+}
+#introduce ul{
+    text-align: center;
+    margin-left: -10px;
+    font-size: 0;
+}
+#introduce ul li{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#global_navi{
+    text-align: center;
+}
+#global_navi ul{
+    list-style: none;
+    overflow: hidden;
+}
+#global_navi ul li {
+    display: inline;
+    padding-right: 20px;
+}

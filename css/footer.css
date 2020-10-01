@@ -1,0 +1,11 @@
+@charset "utf-8";
+footer{
+    background-color: azure;
+}
+footer ul{
+    margin-left: 0;
+    list-style: none;
+}
+footer .footer_menu{
+    
+}
